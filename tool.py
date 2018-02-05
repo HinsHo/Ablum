@@ -129,7 +129,7 @@ def handle_photo():
     list_info.reverse()  # 翻转
     final_dict = {"list": list_info}
     #with open("../hinsho.github.io/source/photos/data.json","w") as fp:
-    with open("..\blog\source/photos/data.json","w") as fp:        
+    with open("E:/Workspaces/hexo/blog/source/photos/data.json","w") as fp:        
         json.dump(final_dict, fp)
 
 # 冒泡排序
