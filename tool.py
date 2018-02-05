@@ -127,7 +127,7 @@ def handle_photo():
             list_info[-1]['arr']['text'].append(info)
             list_info[-1]['arr']['type'].append('image')
     list_info.reverse()  # 翻转
-    final_dict = {"list": list_infoS}
+    final_dict = {"list": list_info}
     #with open("../hinsho.github.io/source/photos/data.json","w") as fp:
     with open("E:\Workspaces\hexo\blog\source/photos/data.json","w") as fp:        
         json.dump(final_dict, fp)
